@@ -1,0 +1,75 @@
+{
+  "checkedAt": "2026-10-26T09:54:58.680Z",
+  "sourceCommit": "b82c42d",
+  "application": "stellar-p2p-proof-vijay",
+  "machine": "830d12add66258",
+  "image": "sha256:4e63deb155e8799d488bca10069011200c5f165ec9912c778f11f56c256ff7f4",
+  "region": "cdg",
+  "volume": {
+    "id": "vol_vz80xl0nk9wy5xjv",
+    "sizeGB": 1,
+    "encrypted": true,
+    "recordCountRestored": 2,
+    "sqliteIntegrity": "ok"
+  },
+  "rollbackMachine": {
+    "id": "85e769b4196298",
+    "state": "stopped",
+    "publicRoutes": false
+  },
+  "website": {
+    "worker": "pactlane-demo",
+    "version": "66f37f12-7c6d-4cf6-ae24-f2586e369531",
+    "trafficPercent": 100,
+    "assetSourceCommit": "8f3ec08",
+    "apiStatus": 200,
+    "configured": true
+  },
+  "setup": {
+    "url": "https://stellar-p2p-proof-vijay.fly.dev/setup",
+    "publicStatus": 200,
+    "unsignedUploadFeeStroops": "197356460",
+    "combinedDeploymentFeeCapStroops": "250000000",
+    "ownerWalletSignatureRequired": true,
+    "transactionSubmitted": true,
+    "firstAttempt": {
+      "hash": "0ef1d976cbbee3fd91bdf7ee42794381ba09c2dadcb071e4166cbc183f8d721f",
+      "outcome": "EXPIRED_WITHOUT_INCLUSION",
+      "rpcStatus": "NOT_FOUND",
+      "horizonStatus": 404,
+      "sourceSequenceConsumed": false,
+      "feeChargedStroops": "0",
+      "submissionResponse": "not preserved by initial implementation; corrected before retry"
+    },
+    "status": "DEPLOYED",
+    "contract": "CAKZENBU32SNOAQQ34T2VATTZJYI5BPQW3WZVUVYIXWVTG5Q5R6TOHO5",
+    "completedTransactions": [
+      {
+        "method": "upload",
+        "hash": "b19f5ecb60f33285c551d17b1cd19395f60d14903673fdaabafb3cdacdfd69a3",
+        "successful": true,
+        "ledger": 65144252,
+        "createdAt": "2026-10-26T09:30:43Z",
+        "feeChargedStroops": "171613443"
+      },
+      {
+        "method": "deploy",
+        "hash": "4da4c1b436f837ffa9c30e6eda8f5afcc989a9974f1057ab18f76fb944272daf",
+        "successful": true,
+        "ledger": 65144291,
+        "createdAt": "2026-10-26T09:33:58Z",
+        "feeChargedStroops": "505269"
+      }
+    ],
+    "actualChargedStroops": "172118712"
+  },
+  "browser": {
+    "desktopWidth": 1440,
+    "mobileWidth": 390,
+    "overflow": false,
+    "pageErrors": 0,
+    "demoModeChecked": true
+  },
+  "paymentReleaseGate": "CLEARED",
+  "tradeEvidence": "mainnet-trade-2026-10-26.json"
+}

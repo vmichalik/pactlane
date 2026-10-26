@@ -1,0 +1,526 @@
+{
+  "sourceCommit": "a568b1909d0cda004ba567ce261ff83c26ecbf21",
+  "bundle": "app/vendor/walletconnect.mjs",
+  "bundleSha256": "3dd4f9cfbd148a0f527cb21cfec010eccef3880504f5a54d850cd43a6e90ff1d",
+  "verification": "Rebuilt in memory from pinned dependencies; exact bytes match committed bundle.",
+  "packages": [
+    {
+      "name": "@adraffy/ens-normalize",
+      "version": "1.11.1",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/_adraffy_ens-normalize-1.11.1-LICENSE",
+          "sha256": "3b458813ab3316b16bf004c4201d4a0583cf615514422dabf4d7c025988d613d"
+        }
+      ]
+    },
+    {
+      "name": "@msgpack/msgpack",
+      "version": "3.1.3",
+      "license": "ISC",
+      "files": [
+        {
+          "path": "licenses/bundled/_msgpack_msgpack-3.1.3-LICENSE",
+          "sha256": "d95a411bcdadac85d678a99367ff51719e53539fa5ee9994943cd760c4ae64e4"
+        }
+      ]
+    },
+    {
+      "name": "@noble/ciphers",
+      "version": "1.3.0",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/_noble_ciphers-1.3.0-LICENSE",
+          "sha256": "f36671a5487c9c5050efacb58011c37c24c55a889803cb036cf9d9a6347c1e2d"
+        }
+      ]
+    },
+    {
+      "name": "@noble/curves",
+      "version": "1.9.1",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/_noble_curves-1.9.1-LICENSE",
+          "sha256": "4f221aee6e072336700c408c68ab3b96a3fc09f6aebe6f48f1bd99e5ef13faec"
+        }
+      ]
+    },
+    {
+      "name": "@noble/curves",
+      "version": "1.9.7",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/_noble_curves-1.9.7-LICENSE",
+          "sha256": "4f221aee6e072336700c408c68ab3b96a3fc09f6aebe6f48f1bd99e5ef13faec"
+        }
+      ]
+    },
+    {
+      "name": "@noble/hashes",
+      "version": "1.8.0",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/_noble_hashes-1.8.0-LICENSE",
+          "sha256": "4f221aee6e072336700c408c68ab3b96a3fc09f6aebe6f48f1bd99e5ef13faec"
+        }
+      ]
+    },
+    {
+      "name": "@scure/base",
+      "version": "1.2.6",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/_scure_base-1.2.6-LICENSE",
+          "sha256": "3239e134eb6e6d64538ca76498c7fcb08a395249dd9d4af9927bf6d0169ee429"
+        }
+      ]
+    },
+    {
+      "name": "@scure/bip32",
+      "version": "1.7.0",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/_scure_bip32-1.7.0-LICENSE",
+          "sha256": "1565efd0ec4580bfaa96c7eeaaa9af3791baa1cc562c3bde62d0a055910b9ec7"
+        }
+      ]
+    },
+    {
+      "name": "@scure/bip39",
+      "version": "1.6.0",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/_scure_bip39-1.6.0-LICENSE",
+          "sha256": "1565efd0ec4580bfaa96c7eeaaa9af3791baa1cc562c3bde62d0a055910b9ec7"
+        }
+      ]
+    },
+    {
+      "name": "@walletconnect/core",
+      "version": "2.26.0",
+      "license": "SEE LICENSE IN LICENSE.md",
+      "files": [
+        {
+          "path": "licenses/bundled/_walletconnect_core-2.26.0-LICENSE.md",
+          "sha256": "1cb6f8cfe21f54ab1105105717eaa2ba08343037a2a9c41dfd5ab09e3ce270fc"
+        }
+      ]
+    },
+    {
+      "name": "@walletconnect/environment",
+      "version": "1.0.1",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/_walletconnect_environment-1.0.1-LICENSE",
+          "sha256": "dce86f5486175b06b249b62ab47c95ab9704331fb0e93f2327078ceba74e0c30"
+        }
+      ]
+    },
+    {
+      "name": "@walletconnect/events",
+      "version": "1.0.1",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/_walletconnect_events-1.0.1-LICENSE",
+          "sha256": "dce86f5486175b06b249b62ab47c95ab9704331fb0e93f2327078ceba74e0c30"
+        }
+      ]
+    },
+    {
+      "name": "@walletconnect/heartbeat",
+      "version": "1.2.2",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/_walletconnect_heartbeat-1.2.2-LICENSE",
+          "sha256": "dce86f5486175b06b249b62ab47c95ab9704331fb0e93f2327078ceba74e0c30"
+        }
+      ]
+    },
+    {
+      "name": "@walletconnect/jsonrpc-http-connection",
+      "version": "1.0.8",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/_walletconnect_jsonrpc-http-connection-1.0.8-LICENSE",
+          "sha256": "36e1fb03e439ac4f5ff0afa7ec5aa03c55ed0271a82c2fcdb1218ee34b91a664"
+        }
+      ]
+    },
+    {
+      "name": "@walletconnect/jsonrpc-provider",
+      "version": "1.0.14",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/_walletconnect_jsonrpc-provider-1.0.14-LICENSE",
+          "sha256": "dce86f5486175b06b249b62ab47c95ab9704331fb0e93f2327078ceba74e0c30"
+        }
+      ]
+    },
+    {
+      "name": "@walletconnect/jsonrpc-types",
+      "version": "1.0.4",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/_walletconnect_jsonrpc-types-1.0.4-LICENSE",
+          "sha256": "dce86f5486175b06b249b62ab47c95ab9704331fb0e93f2327078ceba74e0c30"
+        }
+      ]
+    },
+    {
+      "name": "@walletconnect/jsonrpc-utils",
+      "version": "1.0.8",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/_walletconnect_jsonrpc-utils-1.0.8-LICENSE",
+          "sha256": "dce86f5486175b06b249b62ab47c95ab9704331fb0e93f2327078ceba74e0c30"
+        }
+      ]
+    },
+    {
+      "name": "@walletconnect/jsonrpc-ws-connection",
+      "version": "1.0.16",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/_walletconnect_jsonrpc-ws-connection-1.0.16-LICENSE",
+          "sha256": "dce86f5486175b06b249b62ab47c95ab9704331fb0e93f2327078ceba74e0c30"
+        }
+      ]
+    },
+    {
+      "name": "@walletconnect/keyvaluestorage",
+      "version": "1.1.1",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/_walletconnect_keyvaluestorage-1.1.1-LICENSE",
+          "sha256": "2c05fcbb457ba28b653884f9c64a4bf97c53f436251dbebb8974b04e72984eb9"
+        }
+      ]
+    },
+    {
+      "name": "@walletconnect/logger",
+      "version": "3.0.2",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/_walletconnect_logger-3.0.2-LICENSE",
+          "sha256": "dce86f5486175b06b249b62ab47c95ab9704331fb0e93f2327078ceba74e0c30"
+        }
+      ]
+    },
+    {
+      "name": "@walletconnect/relay-api",
+      "version": "1.0.11",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/_walletconnect_relay-api-1.0.11-LICENSE",
+          "sha256": "dce86f5486175b06b249b62ab47c95ab9704331fb0e93f2327078ceba74e0c30"
+        }
+      ]
+    },
+    {
+      "name": "@walletconnect/relay-auth",
+      "version": "1.1.0",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/_walletconnect_relay-auth-1.1.0-LICENSE",
+          "sha256": "dce86f5486175b06b249b62ab47c95ab9704331fb0e93f2327078ceba74e0c30"
+        }
+      ]
+    },
+    {
+      "name": "@walletconnect/safe-json",
+      "version": "1.0.2",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/_walletconnect_safe-json-1.0.2-LICENSE",
+          "sha256": "dce86f5486175b06b249b62ab47c95ab9704331fb0e93f2327078ceba74e0c30"
+        }
+      ]
+    },
+    {
+      "name": "@walletconnect/sign-client",
+      "version": "2.26.0",
+      "license": "SEE LICENSE IN LICENSE.md",
+      "files": [
+        {
+          "path": "licenses/bundled/_walletconnect_sign-client-2.26.0-LICENSE.md",
+          "sha256": "1cb6f8cfe21f54ab1105105717eaa2ba08343037a2a9c41dfd5ab09e3ce270fc"
+        }
+      ]
+    },
+    {
+      "name": "@walletconnect/time",
+      "version": "1.0.2",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/_walletconnect_time-1.0.2-LICENSE",
+          "sha256": "dce86f5486175b06b249b62ab47c95ab9704331fb0e93f2327078ceba74e0c30"
+        }
+      ]
+    },
+    {
+      "name": "@walletconnect/types",
+      "version": "2.26.0",
+      "license": "SEE LICENSE IN LICENSE.md",
+      "files": [
+        {
+          "path": "licenses/bundled/_walletconnect_types-2.26.0-LICENSE.md",
+          "sha256": "1cb6f8cfe21f54ab1105105717eaa2ba08343037a2a9c41dfd5ab09e3ce270fc"
+        }
+      ]
+    },
+    {
+      "name": "@walletconnect/universal-provider",
+      "version": "2.26.0",
+      "license": "SEE LICENSE IN LICENSE.md",
+      "files": [
+        {
+          "path": "licenses/bundled/_walletconnect_universal-provider-2.26.0-LICENSE.md",
+          "sha256": "1cb6f8cfe21f54ab1105105717eaa2ba08343037a2a9c41dfd5ab09e3ce270fc"
+        }
+      ]
+    },
+    {
+      "name": "@walletconnect/utils",
+      "version": "2.26.0",
+      "license": "SEE LICENSE IN LICENSE.md",
+      "files": [
+        {
+          "path": "licenses/bundled/_walletconnect_utils-2.26.0-LICENSE.md",
+          "sha256": "1cb6f8cfe21f54ab1105105717eaa2ba08343037a2a9c41dfd5ab09e3ce270fc"
+        }
+      ]
+    },
+    {
+      "name": "@walletconnect/window-getters",
+      "version": "1.0.1",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/_walletconnect_window-getters-1.0.1-LICENSE",
+          "sha256": "dce86f5486175b06b249b62ab47c95ab9704331fb0e93f2327078ceba74e0c30"
+        }
+      ]
+    },
+    {
+      "name": "@walletconnect/window-metadata",
+      "version": "1.0.1",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/_walletconnect_window-metadata-1.0.1-LICENSE",
+          "sha256": "36e1fb03e439ac4f5ff0afa7ec5aa03c55ed0271a82c2fcdb1218ee34b91a664"
+        }
+      ]
+    },
+    {
+      "name": "abitype",
+      "version": "1.3.0",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/abitype-1.3.0-LICENSE",
+          "sha256": "e7f5360a60628940fee8653802d7221d2b9575e26268be2a3a2fdbc04aa84321"
+        }
+      ]
+    },
+    {
+      "name": "blakejs",
+      "version": "1.2.1",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/blakejs-1.2.1-LICENSE",
+          "sha256": "4d5ba2de4c4d5c98942f603e7c0eddf290e50fc01665e74f3249755f77be781d"
+        }
+      ]
+    },
+    {
+      "name": "cross-fetch",
+      "version": "3.2.0",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/cross-fetch-3.2.0-LICENSE",
+          "sha256": "821a6be45c3fd08815688b30b6210fc97848cf88c7a6ed8afb22ae75b83571b4"
+        }
+      ]
+    },
+    {
+      "name": "destr",
+      "version": "2.0.5",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/destr-2.0.5-LICENSE",
+          "sha256": "46231df5a7733c3f52f11b71f3df61813007745b62b09031acfb45fb42d75082"
+        }
+      ]
+    },
+    {
+      "name": "detect-browser",
+      "version": "5.3.0",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/detect-browser-5.3.0-LICENSE",
+          "sha256": "865e4172abe65f4ad1fe3d73fb21d7b9a16588c68597753470b2078bedf3b54a"
+        }
+      ]
+    },
+    {
+      "name": "dijkstrajs",
+      "version": "1.0.3",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/dijkstrajs-1.0.3-LICENSE.md",
+          "sha256": "c46324e45a005413535a6fb7a97e9eacd3cc6bf30335b7d5c10b8ee3af9e60c2"
+        }
+      ]
+    },
+    {
+      "name": "es-toolkit",
+      "version": "1.45.1",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/es-toolkit-1.45.1-LICENSE",
+          "sha256": "ed68888a2a28f32a05e88f24d4d4ee75075a1bda2b6372a1f2e00fa0576a5524"
+        }
+      ]
+    },
+    {
+      "name": "eventemitter3",
+      "version": "5.0.1",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/eventemitter3-5.0.1-LICENSE",
+          "sha256": "3aecc12b1cb28832b5f65ab64291de96568c3f236a74d646281b4491f7bcadbf"
+        }
+      ]
+    },
+    {
+      "name": "events",
+      "version": "3.3.0",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/events-3.3.0-LICENSE",
+          "sha256": "631987b7616a325a5b97566c232418481ddf7dbb5ecadefb991e791876cc2599"
+        }
+      ]
+    },
+    {
+      "name": "idb-keyval",
+      "version": "6.3.0",
+      "license": "Apache-2.0",
+      "files": [
+        {
+          "path": "licenses/bundled/idb-keyval-6.3.0-LICENCE",
+          "sha256": "20c27d6339619eeb3113cb865d4e98a3f559e52964fc75caea9cb5fa72674565"
+        }
+      ]
+    },
+    {
+      "name": "multiformats",
+      "version": "9.9.0",
+      "license": "(Apache-2.0 AND MIT)",
+      "files": [
+        {
+          "path": "licenses/bundled/multiformats-9.9.0-LICENSE-APACHE",
+          "sha256": "b41dcb3b39cb28279a67949b10d522356ca5c58260eb1983f7aad8b61e928b42"
+        },
+        {
+          "path": "licenses/bundled/multiformats-9.9.0-LICENSE-MIT",
+          "sha256": "4b3beb461923c080edc76faa2bd79c61295f3d354cd79ee205f427ce52dc6d66"
+        }
+      ]
+    },
+    {
+      "name": "ox",
+      "version": "0.9.3",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/ox-0.9.3-LICENSE",
+          "sha256": "84ecb61c470de66e88a79c7d0ee8ce068e743693a4c249017545b4c8d4f9984d"
+        }
+      ]
+    },
+    {
+      "name": "qrcode",
+      "version": "1.5.4",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/qrcode-1.5.4-license",
+          "sha256": "8df47c6ad9ac2c41eb9b2a72def9908959da0ede8dadd56c7b249c1bdb0c5ce6"
+        }
+      ]
+    },
+    {
+      "name": "tslib",
+      "version": "1.14.1",
+      "license": "0BSD",
+      "files": [
+        {
+          "path": "licenses/bundled/tslib-1.14.1-LICENSE.txt",
+          "sha256": "210b19e543130388c68654b7497e967119ce17145f66ab7d85688fbd70f08751"
+        }
+      ]
+    },
+    {
+      "name": "uint8arrays",
+      "version": "3.1.1",
+      "license": "MIT",
+      "files": [],
+      "notice": "licenses/uint8arrays-3.1.1-MIT.txt",
+      "upstreamLicenseFile": "Not included in the upstream npm package or pinned source root; SPDX declaration and author attribution retained."
+    },
+    {
+      "name": "unstorage",
+      "version": "1.17.6",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/unstorage-1.17.6-LICENSE",
+          "sha256": "46231df5a7733c3f52f11b71f3df61813007745b62b09031acfb45fb42d75082"
+        }
+      ]
+    },
+    {
+      "name": "ws",
+      "version": "7.5.13",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "licenses/bundled/ws-7.5.13-LICENSE",
+          "sha256": "3de284c8e6fa7e8437eff6f53695471e0332129a5b42a79361e17b7637de94b3"
+        }
+      ]
+    }
+  ]
+}

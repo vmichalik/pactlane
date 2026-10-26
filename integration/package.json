@@ -1,0 +1,19 @@
+{
+  "name": "@pactlane/release-integration",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "test": "node --test *.test.mjs"
+  },
+  "dependencies": {
+    "@stellar/freighter-api": "6.0.1",
+    "@stellar/stellar-sdk": "17.1.0",
+    "@walletconnect/universal-provider": "2.26.0",
+    "esbuild": "0.28.2",
+    "qrcode": "1.5.4"
+  }
+}
